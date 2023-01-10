@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Store Api CRUD Test</title>
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
+<link type="text/css" href="css/tables.css" rel="stylesheet" />
+
+<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script><!-- ImgPreview -->
+<script src="scripts/imgpreview.full.jquery.js" type="text/javascript"></script>
+</head>
+
+<body class="results-page">
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+        <span class="breadcrumbs">
+            <a href="index.html" class="breadcrumbs">Home</a>
+
+            > Store Api CRUD Test
+        </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-01-2023 13:37</span>
+    <br style="clear:left"/>
+</div>
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Best Buy Application</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user I want to test Best Buy Application
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                    <span class="success-color">
+                                    Store Api CRUD Test
+                                        <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3 class="story-header">Scenario Outline</h3>
+
+        <div class="scenario">Creating student with name : 86558argos, type: &lt;type&gt;, address: &lt;address&gt;, address2: &lt;address2&gt; , city: &lt;city&gt;, state: &lt;state&gt;, zip: &lt;zip&gt;, lat:&lt;lat&gt;,lng:&lt;lng&gt;, hours:&lt;hours&gt;</div>
+
+    </div>
+
+    <div id="beforetable"></div>
+
+
+        <h3 class="story-header">Examples:</h3>
+            <div class="requirementNarrative"></div>
+        <div class="example-table">
+            <table>
+                <thead>
+                <tr>
+                    <th>#</th>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Address</th>
+                        <th>Address2</th>
+                        <th>City</th>
+                        <th>State</th>
+                        <th>Zip</th>
+                        <th>Lat</th>
+                        <th>Lng</th>
+                        <th>Hours</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#0">1</a></td>
+                            <td class="test-SUCCESS"><a href="#0">argos</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">electronics</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">45 london street</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">LE 40</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">London</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">Harrow</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">54534</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">98</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">67</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">8am to 8pm</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#1">2</a></td>
+                            <td class="test-SUCCESS"><a href="#1">currys</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">appliences</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">30 dam street</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">GB 98</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">Coventry</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">midland</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">858</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">459</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">489</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">8am to 8pm</a>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    <div id="tablecontents">
+        <div>
+            <table class="step-table">
+                <tr class="step-titles">
+                    <th width="65">                        &nbsp;
+                    </th>
+
+                    <th width="%" class="step-description-wide-column greentext">
+                        Steps
+                    </th>
+                    <th width="100" class="greentext">Outcome</th>
+                    <th width="75" class="greentext">Duration</th>
+                </tr>
+                <tr class="step-table-separator">
+                    <td colspan="5"></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="0"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">Given Best buy application is running</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block;">
+                            <span class="top-level-step">When I create a new store by providing the information name "argos" type "electronics" address "45 london street" addresstwo "LE 40" city "London" state "Harrow" zip "54534" lat "98" lng "67" hours "8am to 8pm"</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.04s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection1" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating student with name : 86558argos, type: electronics, address: 45 london street, address2: LE 40 , city: London, state: Harrow, zip: 54534, lat:98,lng:67, hours:8am to 8pm</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.03s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-4">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-4" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Connection=keep-alive<br>Accept=application/json<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;86558argos&quot;,<br>    &quot;type&quot;: &quot;electronics&quot;,<br>    &quot;address&quot;: &quot;45 london street&quot;,<br>    &quot;address2&quot;: &quot;LE 40&quot;,<br>    &quot;city&quot;: &quot;London&quot;,<br>    &quot;state&quot;: &quot;Harrow&quot;,<br>    &quot;zip&quot;: &quot;54534&quot;,<br>    &quot;lat&quot;: 98,<br>    &quot;lng&quot;: 67,<br>    &quot;hours&quot;: &quot;8am to 8pm&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 264<br>ETag: W/&quot;108-3uIIGqLUDqGJJJks9Jt5uHtuHt4&quot;<br>Date: Tue, 10 Jan 2023 13:37:07 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 9031,<br>    &quot;name&quot;: &quot;86558argos&quot;,<br>    &quot;type&quot;: &quot;electronics&quot;,<br>    &quot;address&quot;: &quot;45 london street&quot;,<br>    &quot;address2&quot;: &quot;LE 40&quot;,<br>    &quot;city&quot;: &quot;London&quot;,<br>    &quot;state&quot;: &quot;Harrow&quot;,<br>    &quot;zip&quot;: &quot;54534&quot;,<br>    &quot;lat&quot;: 98,<br>    &quot;lng&quot;: 67,<br>    &quot;hours&quot;: &quot;8am to 8pm&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T13:37:07.499Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T13:37:07.499Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="2"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection2 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block;">
+                            <span class="top-level-step">Then I verify that the store with name "argos" is created</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.02s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection2" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Getting the store information with id: 9031</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.02s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">GET http://localhost:3030/stores/9031</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-7">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-7" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET http://localhost:3030/stores/9031
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: null</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Connection=keep-alive<br>Accept=application/json</pre>
+                                    <h5>Content Body</h5>
+                                    <pre></pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 278<br>ETag: W/&quot;116-VOBoCk7KIHHRfSd3xxQmJm6YvjI&quot;<br>Date: Tue, 10 Jan 2023 13:37:07 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 9031,<br>    &quot;name&quot;: &quot;86558argos&quot;,<br>    &quot;type&quot;: &quot;electronics&quot;,<br>    &quot;address&quot;: &quot;45 london street&quot;,<br>    &quot;address2&quot;: &quot;LE 40&quot;,<br>    &quot;city&quot;: &quot;London&quot;,<br>    &quot;state&quot;: &quot;Harrow&quot;,<br>    &quot;zip&quot;: &quot;54534&quot;,<br>    &quot;lat&quot;: 98,<br>    &quot;lng&quot;: 67,<br>    &quot;hours&quot;: &quot;8am to 8pm&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T13:37:07.499Z&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T13:37:07.499Z&quot;,<br>    &quot;services&quot;: [<br>        <br>    ]<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="3"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection3 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block;">
+                            <span class="top-level-step">And I update store by providing the information name "argos" type "electronics" address "45 london street" addresstwo "LE 40" city "London" state "Harrow" zip "54534" lat "98" lng "67" hours "8am to 8pm"</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.02s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection3" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating student with name : 9031, type: 86558argos_Updated, address: electronics, address2: 45 london street , city: LE 40, state: London, zip: Harrow, lat:54534,lng:98, hours:67</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.02s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">PUT http://localhost:3030/stores/9031</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-10">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-10" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                PUT http://localhost:3030/stores/9031
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;86558argos_Updated&quot;,<br>    &quot;type&quot;: &quot;electronics&quot;,<br>    &quot;address&quot;: &quot;45 london street&quot;,<br>    &quot;address2&quot;: &quot;LE 40&quot;,<br>    &quot;city&quot;: &quot;London&quot;,<br>    &quot;state&quot;: &quot;Harrow&quot;,<br>    &quot;zip&quot;: &quot;54534&quot;,<br>    &quot;lat&quot;: 98,<br>    &quot;lng&quot;: 67,<br>    &quot;hours&quot;: &quot;8am to 8pm&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 272<br>ETag: W/&quot;110-kHVIdIwEIxfzHm4mckaKU7kwAWI&quot;<br>Date: Tue, 10 Jan 2023 13:37:07 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 9031,<br>    &quot;name&quot;: &quot;86558argos_Updated&quot;,<br>    &quot;type&quot;: &quot;electronics&quot;,<br>    &quot;address&quot;: &quot;45 london street&quot;,<br>    &quot;address2&quot;: &quot;LE 40&quot;,<br>    &quot;city&quot;: &quot;London&quot;,<br>    &quot;state&quot;: &quot;Harrow&quot;,<br>    &quot;zip&quot;: &quot;54534&quot;,<br>    &quot;lat&quot;: 98,<br>    &quot;lng&quot;: 67,<br>    &quot;hours&quot;: &quot;8am to 8pm&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T13:37:07.499Z&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T13:37:07.545Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="4"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection4 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4')"
+                               style="display:block;">
+                            <span class="top-level-step">And The store with name "argos" is updated successfully</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.02s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection4" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Getting the store information with id: 9031</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.02s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">GET http://localhost:3030/stores/9031</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-13">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-13" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET http://localhost:3030/stores/9031
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: null</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Connection=keep-alive<br>Accept=application/json</pre>
+                                    <h5>Content Body</h5>
+                                    <pre></pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 286<br>ETag: W/&quot;11e-Zxg5/sS8gIhA0PxxU0GMFhWGINE&quot;<br>Date: Tue, 10 Jan 2023 13:37:07 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 9031,<br>    &quot;name&quot;: &quot;86558argos_Updated&quot;,<br>    &quot;type&quot;: &quot;electronics&quot;,<br>    &quot;address&quot;: &quot;45 london street&quot;,<br>    &quot;address2&quot;: &quot;LE 40&quot;,<br>    &quot;city&quot;: &quot;London&quot;,<br>    &quot;state&quot;: &quot;Harrow&quot;,<br>    &quot;zip&quot;: &quot;54534&quot;,<br>    &quot;lat&quot;: 98,<br>    &quot;lng&quot;: 67,<br>    &quot;hours&quot;: &quot;8am to 8pm&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T13:37:07.499Z&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T13:37:07.545Z&quot;,<br>    &quot;services&quot;: [<br>        <br>    ]<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="5"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection5')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection5 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection5')"
+                               style="display:block;">
+                            <span class="top-level-step">And I delete the store that created with name "argos"</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.02s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection5" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Deleting store information with id: 9031</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.02s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">DELETE http://localhost:3030/stores/9031</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-16">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-16" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                DELETE http://localhost:3030/stores/9031
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=application/json<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre></pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 272<br>ETag: W/&quot;110-kHVIdIwEIxfzHm4mckaKU7kwAWI&quot;<br>Date: Tue, 10 Jan 2023 13:37:07 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 9031,<br>    &quot;name&quot;: &quot;86558argos_Updated&quot;,<br>    &quot;type&quot;: &quot;electronics&quot;,<br>    &quot;address&quot;: &quot;45 london street&quot;,<br>    &quot;address2&quot;: &quot;LE 40&quot;,<br>    &quot;city&quot;: &quot;London&quot;,<br>    &quot;state&quot;: &quot;Harrow&quot;,<br>    &quot;zip&quot;: &quot;54534&quot;,<br>    &quot;lat&quot;: 98,<br>    &quot;lng&quot;: 67,<br>    &quot;hours&quot;: &quot;8am to 8pm&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T13:37:07.499Z&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T13:37:07.545Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="6"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection6')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection6 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection6')"
+                               style="display:block;">
+                            <span class="top-level-step">Then The store deleted successfully from the application</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.01s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection6" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Getting the store information with id: 9031</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.01s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">GET http://localhost:3030/stores/9031</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-19">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-19" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET http://localhost:3030/stores/9031
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 404</p>
+                                    <p>Content Type: null</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Connection=keep-alive<br>Accept=application/json</pre>
+                                    <h5>Content Body</h5>
+                                    <pre></pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 108<br>ETag: W/&quot;6c-79cl7IaPyE8mxfi42bynfwGYtkw&quot;<br>Vary: Accept-Encoding<br>Date: Tue, 10 Jan 2023 13:37:07 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;name&quot;: &quot;NotFound&quot;,<br>    &quot;message&quot;: &quot;No record found for id '9031'&quot;,<br>    &quot;code&quot;: 404,<br>    &quot;className&quot;: &quot;not-found&quot;,<br>    &quot;errors&quot;: {<br>        <br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="7"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">Given Best buy application is running</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="8"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection8')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection8 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection8')"
+                               style="display:block;">
+                            <span class="top-level-step">When I create a new store by providing the information name "currys" type "appliences" address "30 dam street" addresstwo "GB 98" city "Coventry" state "midland" zip "858" lat "459" lng "489" hours "8am to 8pm"</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.03s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection8" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating student with name : 86080currys, type: appliences, address: 30 dam street, address2: GB 98 , city: Coventry, state: midland, zip: 858, lat:459,lng:489, hours:8am to 8pm</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.02s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-23">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-23" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Connection=keep-alive<br>Accept=application/json<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;86080currys&quot;,<br>    &quot;type&quot;: &quot;appliences&quot;,<br>    &quot;address&quot;: &quot;30 dam street&quot;,<br>    &quot;address2&quot;: &quot;GB 98&quot;,<br>    &quot;city&quot;: &quot;Coventry&quot;,<br>    &quot;state&quot;: &quot;midland&quot;,<br>    &quot;zip&quot;: &quot;858&quot;,<br>    &quot;lat&quot;: 459,<br>    &quot;lng&quot;: 489,<br>    &quot;hours&quot;: &quot;8am to 8pm&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 264<br>ETag: W/&quot;108-g2DWkHoZKzaEtw++7P9H30L+3Aw&quot;<br>Date: Tue, 10 Jan 2023 13:37:07 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 9032,<br>    &quot;name&quot;: &quot;86080currys&quot;,<br>    &quot;type&quot;: &quot;appliences&quot;,<br>    &quot;address&quot;: &quot;30 dam street&quot;,<br>    &quot;address2&quot;: &quot;GB 98&quot;,<br>    &quot;city&quot;: &quot;Coventry&quot;,<br>    &quot;state&quot;: &quot;midland&quot;,<br>    &quot;zip&quot;: &quot;858&quot;,<br>    &quot;lat&quot;: 459,<br>    &quot;lng&quot;: 489,<br>    &quot;hours&quot;: &quot;8am to 8pm&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T13:37:07.627Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T13:37:07.627Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="9"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection9')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection9 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection9')"
+                               style="display:block;">
+                            <span class="top-level-step">Then I verify that the store with name "currys" is created</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.01s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection9" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Getting the store information with id: 9032</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.01s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">GET http://localhost:3030/stores/9032</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-26">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-26" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET http://localhost:3030/stores/9032
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: null</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Connection=keep-alive<br>Accept=application/json</pre>
+                                    <h5>Content Body</h5>
+                                    <pre></pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 278<br>ETag: W/&quot;116-YLLlChc/5xbRAjyrvijaiO2d7cM&quot;<br>Date: Tue, 10 Jan 2023 13:37:07 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 9032,<br>    &quot;name&quot;: &quot;86080currys&quot;,<br>    &quot;type&quot;: &quot;appliences&quot;,<br>    &quot;address&quot;: &quot;30 dam street&quot;,<br>    &quot;address2&quot;: &quot;GB 98&quot;,<br>    &quot;city&quot;: &quot;Coventry&quot;,<br>    &quot;state&quot;: &quot;midland&quot;,<br>    &quot;zip&quot;: &quot;858&quot;,<br>    &quot;lat&quot;: 459,<br>    &quot;lng&quot;: 489,<br>    &quot;hours&quot;: &quot;8am to 8pm&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T13:37:07.627Z&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T13:37:07.627Z&quot;,<br>    &quot;services&quot;: [<br>        <br>    ]<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="10"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection10')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection10 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection10')"
+                               style="display:block;">
+                            <span class="top-level-step">And I update store by providing the information name "currys" type "appliences" address "30 dam street" addresstwo "GB 98" city "Coventry" state "midland" zip "858" lat "459" lng "489" hours "8am to 8pm"</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.02s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection10" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating student with name : 9032, type: 86080currys_Updated, address: appliences, address2: 30 dam street , city: GB 98, state: Coventry, zip: midland, lat:858,lng:459, hours:489</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.02s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">PUT http://localhost:3030/stores/9032</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-29">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-29" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                PUT http://localhost:3030/stores/9032
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;86080currys_Updated&quot;,<br>    &quot;type&quot;: &quot;appliences&quot;,<br>    &quot;address&quot;: &quot;30 dam street&quot;,<br>    &quot;address2&quot;: &quot;GB 98&quot;,<br>    &quot;city&quot;: &quot;Coventry&quot;,<br>    &quot;state&quot;: &quot;midland&quot;,<br>    &quot;zip&quot;: &quot;858&quot;,<br>    &quot;lat&quot;: 459,<br>    &quot;lng&quot;: 489,<br>    &quot;hours&quot;: &quot;8am to 8pm&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 272<br>ETag: W/&quot;110-rZOn3wQU9qGA/kXgN+xR2Uf7IRM&quot;<br>Date: Tue, 10 Jan 2023 13:37:07 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 9032,<br>    &quot;name&quot;: &quot;86080currys_Updated&quot;,<br>    &quot;type&quot;: &quot;appliences&quot;,<br>    &quot;address&quot;: &quot;30 dam street&quot;,<br>    &quot;address2&quot;: &quot;GB 98&quot;,<br>    &quot;city&quot;: &quot;Coventry&quot;,<br>    &quot;state&quot;: &quot;midland&quot;,<br>    &quot;zip&quot;: &quot;858&quot;,<br>    &quot;lat&quot;: 459,<br>    &quot;lng&quot;: 489,<br>    &quot;hours&quot;: &quot;8am to 8pm&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T13:37:07.627Z&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T13:37:07.671Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="11"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection11')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection11 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection11')"
+                               style="display:block;">
+                            <span class="top-level-step">And The store with name "currys" is updated successfully</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.02s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection11" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Getting the store information with id: 9032</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.01s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">GET http://localhost:3030/stores/9032</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-32">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-32" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET http://localhost:3030/stores/9032
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: null</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Connection=keep-alive<br>Accept=application/json</pre>
+                                    <h5>Content Body</h5>
+                                    <pre></pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 286<br>ETag: W/&quot;11e-sLugSPBsZ26IfQ2zsjgdA5VUi/s&quot;<br>Date: Tue, 10 Jan 2023 13:37:07 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 9032,<br>    &quot;name&quot;: &quot;86080currys_Updated&quot;,<br>    &quot;type&quot;: &quot;appliences&quot;,<br>    &quot;address&quot;: &quot;30 dam street&quot;,<br>    &quot;address2&quot;: &quot;GB 98&quot;,<br>    &quot;city&quot;: &quot;Coventry&quot;,<br>    &quot;state&quot;: &quot;midland&quot;,<br>    &quot;zip&quot;: &quot;858&quot;,<br>    &quot;lat&quot;: 459,<br>    &quot;lng&quot;: 489,<br>    &quot;hours&quot;: &quot;8am to 8pm&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T13:37:07.627Z&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T13:37:07.671Z&quot;,<br>    &quot;services&quot;: [<br>        <br>    ]<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="12"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection12')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection12 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection12')"
+                               style="display:block;">
+                            <span class="top-level-step">And I delete the store that created with name "currys"</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.02s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection12" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Deleting store information with id: 9032</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.02s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">DELETE http://localhost:3030/stores/9032</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-35">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-35" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                DELETE http://localhost:3030/stores/9032
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=application/json<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre></pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 272<br>ETag: W/&quot;110-rZOn3wQU9qGA/kXgN+xR2Uf7IRM&quot;<br>Date: Tue, 10 Jan 2023 13:37:07 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 9032,<br>    &quot;name&quot;: &quot;86080currys_Updated&quot;,<br>    &quot;type&quot;: &quot;appliences&quot;,<br>    &quot;address&quot;: &quot;30 dam street&quot;,<br>    &quot;address2&quot;: &quot;GB 98&quot;,<br>    &quot;city&quot;: &quot;Coventry&quot;,<br>    &quot;state&quot;: &quot;midland&quot;,<br>    &quot;zip&quot;: &quot;858&quot;,<br>    &quot;lat&quot;: 459,<br>    &quot;lng&quot;: 489,<br>    &quot;hours&quot;: &quot;8am to 8pm&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T13:37:07.627Z&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T13:37:07.671Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="13"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection13')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection13 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection13')"
+                               style="display:block;">
+                            <span class="top-level-step">Then The store deleted successfully from the application</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.02s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection13" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Getting the store information with id: 9032</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.01s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">GET http://localhost:3030/stores/9032</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-38">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-38" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET http://localhost:3030/stores/9032
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 404</p>
+                                    <p>Content Type: null</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Connection=keep-alive<br>Accept=application/json</pre>
+                                    <h5>Content Body</h5>
+                                    <pre></pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 108<br>ETag: W/&quot;6c-Z8W4gis9wV75ypUc8Zdg/+pOQ0s&quot;<br>Vary: Accept-Encoding<br>Date: Tue, 10 Jan 2023 13:37:07 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;name&quot;: &quot;NotFound&quot;,<br>    &quot;message&quot;: &quot;No record found for id '9032'&quot;,<br>    &quot;code&quot;: 404,<br>    &quot;className&quot;: &quot;not-found&quot;,<br>    &quot;errors&quot;: {<br>        <br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td colspan="2"></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.26s</em></span></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div id="beforefooter"></div>
+    <div id="bottomfooter">
+        <span class="version">Serenity BDD version 1.5.1</span>
+    </div>
+
+
+    <script type="text/javascript">
+        function toggleDiv(divId) {
+            $("#" + divId).toggle();
+            var imgsrc = $(".img" + divId).attr('src');
+            if (imgsrc == 'images/plus.png') {
+                $(".img" + divId).attr("src", function () {
+                    return "images/minus.png";
+                });
+
+            }
+            else {
+                $(".img" + divId).attr("src", function () {
+                    return "images/plus.png";
+                });
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        $('.example-table table').DataTable({
+            "order": [[0, "asc"]],
+            "pageLength": 25,
+            "scrollX": "100%",
+            "scrollXInner": "100%",
+            "scrollCollapse": true
+        });
+    </script>
+
+    <script type="text/javascript">
+        //<![CDATA[
+
+        $(document).ready(function () {
+            $('img.screenshot').imgPreview({
+                imgCSS: {
+                    width: '500px'
+                },
+                distanceFromCursor: {top: 10, left: -200}
+            });
+        });
+
+        //]]>
+    </script>
+    <div id="imgPreviewContainer" style="position: absolute; top: 612px; left: 355px; display: none; " class=""><img
+            src="" style="display: none; "></div>
+    <div id="imgPreviewContainer2" style="position: absolute; top: 925px; left: 320px; display: none; " class="">
+        <img style="width: 200px; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles" style="position: absolute; top: 1272px; left: 321px; display: none; " class="">
+        <img style="height: 200px; opacity: 1; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles2" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+    <div id="imgPreviewWithStyles3" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+
+</body>
+</html>

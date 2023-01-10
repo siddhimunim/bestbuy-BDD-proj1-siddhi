@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Tags test","This test will verify if a status code of 200 is returned for GET request for store api","SUCCESS","2023-01-10T13:37:10.870Z[Europe/London]","0.0","0.03"
+"Tags test","Provide a 500 status code when incorrect HTTP method is used to access resource for store api","SUCCESS","2023-01-10T13:37:11.041Z[Europe/London]","0.0","0.01"
+"Tags test","This test will provide an error code of 404 when user tries to access an invalid resource for store api","SUCCESS","2023-01-10T13:37:11.051Z[Europe/London]","0.0","0.01"

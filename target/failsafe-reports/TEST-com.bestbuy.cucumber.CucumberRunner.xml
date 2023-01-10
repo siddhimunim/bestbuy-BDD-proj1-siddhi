@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuy.cucumber.CucumberRunner" time="1.378" tests="56" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hvtha\bestbuy-serenityBDD-proj1-siddhi"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\hvtha\bestbuy-serenityBDD-proj1-siddhi"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hvtha\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramFiles\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.5\bin;C:\Program Files\nodejs\;C:\Users\hvtha\AppData\Local\Microsoft\WindowsApps;C:\Users\hvtha\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\hvtha"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="hvtha"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given Best buy application is running" classname="| Gucci | perfume | 100 | 15 | 987654 | unisex | perfum catagory | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0.003"/>
+  <testcase name="When I create a new product by providing the information name &quot;Gucci&quot; type &quot;perfume&quot; price &quot;100&quot; shipping &quot;15&quot; upc &quot;987654&quot; description &quot;unisex&quot; manufacturer &quot;perfum catagory&quot; model &quot;MN2727B4z&quot; url &quot;http://www.google.com/image&quot; image &quot;http://dummyimage.com/128x100.png/ff4444/ffffff&quot;" classname="| Gucci | perfume | 100 | 15 | 987654 | unisex | perfum catagory | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0"/>
+  <testcase name="Then I verify that the product with name &quot;Gucci&quot; is created" classname="| Gucci | perfume | 100 | 15 | 987654 | unisex | perfum catagory | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0"/>
+  <testcase name="And I update product by providing the information name &quot;Gucci&quot; type &quot;perfume&quot; price &quot;100&quot; shipping &quot;15&quot; upc &quot;987654&quot; description &quot;unisex&quot; manufacturer &quot;perfum catagory&quot; model &quot;MN2727B4z&quot; url &quot;http://www.google.com/image&quot; image &quot;http://dummyimage.com/128x100.png/ff4444/ffffff&quot;" classname="| Gucci | perfume | 100 | 15 | 987654 | unisex | perfum catagory | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0"/>
+  <testcase name="And The product with name &quot;Gucci&quot; is updated successfully" classname="| Gucci | perfume | 100 | 15 | 987654 | unisex | perfum catagory | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0"/>
+  <testcase name="And I delete the product that created with name &quot;Gucci&quot;" classname="| Gucci | perfume | 100 | 15 | 987654 | unisex | perfum catagory | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0"/>
+  <testcase name="Then The product deleted successfully from the application" classname="| Gucci | perfume | 100 | 15 | 987654 | unisex | perfum catagory | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0"/>
+  <testcase name="| Gucci | perfume | 100 | 15 | 987654 | unisex | perfum catagory | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" classname="| Gucci | perfume | 100 | 15 | 987654 | unisex | perfum catagory | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0.005"/>
+  <testcase name="Given Best buy application is running" classname="| GHD hair dryer | electronics | 114 | 14 | 988547 | with select electronic devices plugs | ghdCompany | MN2525B4 | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0"/>
+  <testcase name="When I create a new product by providing the information name &quot;GHD hair dryer&quot; type &quot;electronics&quot; price &quot;114&quot; shipping &quot;14&quot; upc &quot;988547&quot; description &quot;with select electronic devices plugs&quot; manufacturer &quot;ghdCompany&quot; model &quot;MN2525B4&quot; url &quot;http://www.yahoo.com/image&quot; image &quot;http://dummyimage.com/214x100.png/5fa2dd/ffffff&quot;" classname="| GHD hair dryer | electronics | 114 | 14 | 988547 | with select electronic devices plugs | ghdCompany | MN2525B4 | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0"/>
+  <testcase name="Then I verify that the product with name &quot;GHD hair dryer&quot; is created" classname="| GHD hair dryer | electronics | 114 | 14 | 988547 | with select electronic devices plugs | ghdCompany | MN2525B4 | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0"/>
+  <testcase name="And I update product by providing the information name &quot;GHD hair dryer&quot; type &quot;electronics&quot; price &quot;114&quot; shipping &quot;14&quot; upc &quot;988547&quot; description &quot;with select electronic devices plugs&quot; manufacturer &quot;ghdCompany&quot; model &quot;MN2525B4&quot; url &quot;http://www.yahoo.com/image&quot; image &quot;http://dummyimage.com/214x100.png/5fa2dd/ffffff&quot;" classname="| GHD hair dryer | electronics | 114 | 14 | 988547 | with select electronic devices plugs | ghdCompany | MN2525B4 | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0"/>
+  <testcase name="And The product with name &quot;GHD hair dryer&quot; is updated successfully" classname="| GHD hair dryer | electronics | 114 | 14 | 988547 | with select electronic devices plugs | ghdCompany | MN2525B4 | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0"/>
+  <testcase name="And I delete the product that created with name &quot;GHD hair dryer&quot;" classname="| GHD hair dryer | electronics | 114 | 14 | 988547 | with select electronic devices plugs | ghdCompany | MN2525B4 | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0"/>
+  <testcase name="Then The product deleted successfully from the application" classname="| GHD hair dryer | electronics | 114 | 14 | 988547 | with select electronic devices plugs | ghdCompany | MN2525B4 | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0"/>
+  <testcase name="| GHD hair dryer | electronics | 114 | 14 | 988547 | with select electronic devices plugs | ghdCompany | MN2525B4 | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" classname="| GHD hair dryer | electronics | 114 | 14 | 988547 | with select electronic devices plugs | ghdCompany | MN2525B4 | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0.856"/>
+  <testcase name="Given Best buy application is running" classname="| argos | electronics | 45 london street | LE 40 | London | Harrow | 54534 | 98 | 67 | 8am to 8pm |" time="0"/>
+  <testcase name="When I create a new store by providing the information name &quot;argos&quot; type &quot;electronics&quot; address &quot;45 london street&quot; addresstwo &quot;LE 40&quot; city &quot;London&quot; state &quot;Harrow&quot; zip &quot;54534&quot; lat &quot;98&quot; lng &quot;67&quot; hours &quot;8am to 8pm&quot;" classname="| argos | electronics | 45 london street | LE 40 | London | Harrow | 54534 | 98 | 67 | 8am to 8pm |" time="0"/>
+  <testcase name="Then I verify that the store with name &quot;argos&quot; is created" classname="| argos | electronics | 45 london street | LE 40 | London | Harrow | 54534 | 98 | 67 | 8am to 8pm |" time="0"/>
+  <testcase name="And I update store by providing the information name &quot;argos&quot; type &quot;electronics&quot; address &quot;45 london street&quot; addresstwo &quot;LE 40&quot; city &quot;London&quot; state &quot;Harrow&quot; zip &quot;54534&quot; lat &quot;98&quot; lng &quot;67&quot; hours &quot;8am to 8pm&quot;" classname="| argos | electronics | 45 london street | LE 40 | London | Harrow | 54534 | 98 | 67 | 8am to 8pm |" time="0"/>
+  <testcase name="And The store with name &quot;argos&quot; is updated successfully" classname="| argos | electronics | 45 london street | LE 40 | London | Harrow | 54534 | 98 | 67 | 8am to 8pm |" time="0"/>
+  <testcase name="And I delete the store that created with name &quot;argos&quot;" classname="| argos | electronics | 45 london street | LE 40 | London | Harrow | 54534 | 98 | 67 | 8am to 8pm |" time="0"/>
+  <testcase name="Then The store deleted successfully from the application" classname="| argos | electronics | 45 london street | LE 40 | London | Harrow | 54534 | 98 | 67 | 8am to 8pm |" time="0"/>
+  <testcase name="| argos | electronics | 45 london street | LE 40 | London | Harrow | 54534 | 98 | 67 | 8am to 8pm |" classname="| argos | electronics | 45 london street | LE 40 | London | Harrow | 54534 | 98 | 67 | 8am to 8pm |" time="0.001"/>
+  <testcase name="Given Best buy application is running" classname="| currys | appliences | 30 dam street | GB 98 | Coventry | midland | 858 | 459 | 489 | 8am to 8pm |" time="0"/>
+  <testcase name="When I create a new store by providing the information name &quot;currys&quot; type &quot;appliences&quot; address &quot;30 dam street&quot; addresstwo &quot;GB 98&quot; city &quot;Coventry&quot; state &quot;midland&quot; zip &quot;858&quot; lat &quot;459&quot; lng &quot;489&quot; hours &quot;8am to 8pm&quot;" classname="| currys | appliences | 30 dam street | GB 98 | Coventry | midland | 858 | 459 | 489 | 8am to 8pm |" time="0"/>
+  <testcase name="Then I verify that the store with name &quot;currys&quot; is created" classname="| currys | appliences | 30 dam street | GB 98 | Coventry | midland | 858 | 459 | 489 | 8am to 8pm |" time="0"/>
+  <testcase name="And I update store by providing the information name &quot;currys&quot; type &quot;appliences&quot; address &quot;30 dam street&quot; addresstwo &quot;GB 98&quot; city &quot;Coventry&quot; state &quot;midland&quot; zip &quot;858&quot; lat &quot;459&quot; lng &quot;489&quot; hours &quot;8am to 8pm&quot;" classname="| currys | appliences | 30 dam street | GB 98 | Coventry | midland | 858 | 459 | 489 | 8am to 8pm |" time="0"/>
+  <testcase name="And The store with name &quot;currys&quot; is updated successfully" classname="| currys | appliences | 30 dam street | GB 98 | Coventry | midland | 858 | 459 | 489 | 8am to 8pm |" time="0"/>
+  <testcase name="And I delete the store that created with name &quot;currys&quot;" classname="| currys | appliences | 30 dam street | GB 98 | Coventry | midland | 858 | 459 | 489 | 8am to 8pm |" time="0"/>
+  <testcase name="Then The store deleted successfully from the application" classname="| currys | appliences | 30 dam street | GB 98 | Coventry | midland | 858 | 459 | 489 | 8am to 8pm |" time="0"/>
+  <testcase name="| currys | appliences | 30 dam street | GB 98 | Coventry | midland | 858 | 459 | 489 | 8am to 8pm |" classname="| currys | appliences | 30 dam street | GB 98 | Coventry | midland | 858 | 459 | 489 | 8am to 8pm |" time="0.049"/>
+  <testcase name="When User sends a GET request to products endpoint" classname="Scenario: Check if the best buy applications product api can be accessed by GET request" time="0"/>
+  <testcase name="Then User must get back a valid status code 200" classname="Scenario: Check if the best buy applications product api can be accessed by GET request" time="0"/>
+  <testcase name="Scenario: Check if the best buy applications product api can be accessed by GET request" classname="Scenario: Check if the best buy applications product api can be accessed by GET request" time="0.035"/>
+  <testcase name="When User sends a POST request by providing the information to products endpoint" classname="Scenario: Check if the best buy applications product api can be accessed by POST request" time="0"/>
+  <testcase name="Then User must get back valid status code 201" classname="Scenario: Check if the best buy applications product api can be accessed by POST request" time="0"/>
+  <testcase name="Scenario: Check if the best buy applications product api can be accessed by POST request" classname="Scenario: Check if the best buy applications product api can be accessed by POST request" time="0.034"/>
+  <testcase name="When User sends a PUT request by providing the information to products/id endpoint" classname="Scenario: Check if the best buy applications product api can be accessed by PUT request" time="0"/>
+  <testcase name="Then User get back valid status code 200" classname="Scenario: Check if the best buy applications product api can be accessed by PUT request" time="0"/>
+  <testcase name="Scenario: Check if the best buy applications product api can be accessed by PUT request" classname="Scenario: Check if the best buy applications product api can be accessed by PUT request" time="0.042"/>
+  <testcase name="When User sends a DELETE request to products/id endpoint" classname="Scenario: Check if the best buy applications product api can be accessed by DELETE request" time="0"/>
+  <testcase name="Then User get back a valid status code 200" classname="Scenario: Check if the best buy applications product api can be accessed by DELETE request" time="0"/>
+  <testcase name="Scenario: Check if the best buy applications product api can be accessed by DELETE request" classname="Scenario: Check if the best buy applications product api can be accessed by DELETE request" time="0.047"/>
+  <testcase name="When User sends a GET request to stores endpoint" classname="Scenario: Check if the best buy applications store api can be accessed by GET request" time="0"/>
+  <testcase name="Then User must get back a valid status code 200" classname="Scenario: Check if the best buy applications store api can be accessed by GET request" time="0"/>
+  <testcase name="Scenario: Check if the best buy applications store api can be accessed by GET request" classname="Scenario: Check if the best buy applications store api can be accessed by GET request" time="0.072"/>
+  <testcase name="When User sends a POST request by providing the information to stores endpoint" classname="Scenario: Check if the best buy applications store api can be accessed by POST request" time="0"/>
+  <testcase name="Then User must get back valid status code 201 for post request" classname="Scenario: Check if the best buy applications store api can be accessed by POST request" time="0"/>
+  <testcase name="Scenario: Check if the best buy applications store api can be accessed by POST request" classname="Scenario: Check if the best buy applications store api can be accessed by POST request" time="0.084"/>
+  <testcase name="When User sends a PUT request by providing the information to stores/id endpoint" classname="Scenario: Check if the best buy applications store api can be accessed by PUT request" time="0"/>
+  <testcase name="Then User get back valid status code 200" classname="Scenario: Check if the best buy applications store api can be accessed by PUT request" time="0"/>
+  <testcase name="Scenario: Check if the best buy applications store api can be accessed by PUT request" classname="Scenario: Check if the best buy applications store api can be accessed by PUT request" time="0.084"/>
+  <testcase name="When User sends a DELETE request to stores/id endpoint" classname="Scenario: Check if the best buy applications store api can be accessed by DELETE request" time="0"/>
+  <testcase name="Then User get back a valid status code 200" classname="Scenario: Check if the best buy applications store api can be accessed by DELETE request" time="0"/>
+  <testcase name="Scenario: Check if the best buy applications store api can be accessed by DELETE request" classname="Scenario: Check if the best buy applications store api can be accessed by DELETE request" time="0.066"/>
+</testsuite>
